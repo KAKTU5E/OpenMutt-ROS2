@@ -1,0 +1,23 @@
+left_front:
+  - frontLeftHipRotateXJoint
+  - frontLeftHipRotateYJoint
+  - frontLeftKneeJoint
+  - frontLeftShinToFoot
+
+right_front:
+  - frontRightHipRotateXJoint
+  - frontRightHipRotateYJoint
+  - frontRightKneeJoint
+  - frontRightShinToFoot
+
+left_hind:
+  - backLeftHipRotateXJoint
+  - backLeftHipRotateYJoint
+  - backLeftKneeJoint
+  - backLeftShinToFoot
+
+right_hind:
+  - backRightHipRotateXJoint
+  - backRightHipRotateYJoint
+  - backRightKneeJoint
+  - backRightShinToFoot

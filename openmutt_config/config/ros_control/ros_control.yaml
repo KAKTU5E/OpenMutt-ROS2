@@ -1,0 +1,34 @@
+"":
+  joint_states_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+
+  joint_group_position_controller:
+      type: effort_controllers/JointTrajectoryController
+      joints:
+          - frontLeftHipRotateXJoint
+          - frontLeftHipRotateYJoint
+          - frontLeftKneeJoint
+          - frontRightHipRotateXJoint
+          - frontRightHipRotateYJoint
+          - frontRightKneeJoint
+          - backLeftHipRotateXJoint
+          - backLeftHipRotateYJoint
+          - backLeftKneeJoint
+          - backRightHipRotateXJoint
+          - backRightHipRotateYJoint
+          - backRightKneeJoint
+
+      gains:
+        frontLeftHipRotateXJoint : {p: 180, d: 0.9, i: 20}
+        frontLeftHipRotateYJoint : {p: 180, d: 0.9, i: 20}
+        frontLeftKneeJoint : {p: 180, d: 0.9, i: 20}
+        frontRightHipRotateXJoint : {p: 180, d: 0.9, i: 20}
+        frontRightHipRotateYJoint : {p: 180, d: 0.9, i: 20}
+        frontRightKneeJoint : {p: 180, d: 0.9, i: 20}
+        backLeftHipRotateXJoint : {p: 180, d: 0.9, i: 20}
+        backLeftHipRotateYJoint : {p: 180, d: 0.9, i: 20}
+        backLeftKneeJoint : {p: 180, d: 0.9, i: 20}
+        backRightHipRotateXJoint : {p: 180, d: 0.9, i: 20}
+        backRightHipRotateYJoint : {p: 180, d: 0.9, i: 20}
+        backRightKneeJoint : {p: 180, d: 0.9, i: 20}
